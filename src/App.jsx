@@ -15,30 +15,34 @@ function App() {
     {
       path: "/",
       element: <Layout />,
-      children:[
+      children: [
         {
-          path:"/",
-          element:<HomePage/>
+          path: "/",
+          element: <HomePage />
         },
         {
-          path:"/list",
-          element:<ListPage/>
+          path: "/list",
+          element: <ListPage />
         },
         {
-          path:"/:id",
-          element:<SinglePage/>
+          path: "/:id",
+          element: <SinglePage />
         },
         {
-          path:"/profile",
-          element:<ProfilePage/>
+          path: "/profile",
+          element: <ProfilePage />
         },
         {
-          path:"/login",
-          element:<Login/>
+          path: "/houses",
+          element: <ProfilePage />
         },
         {
-          path:"/register",
-          element:<Register/>
+          path: "/login",
+          element: <Login />
+        },
+        {
+          path: "/register",
+          element: <Register />
         }
       ]
     }
@@ -46,7 +50,7 @@ function App() {
 
   return (
 
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   );
 }
 

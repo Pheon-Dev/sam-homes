@@ -14,6 +14,8 @@ function Navbar() {
           <span>Sam Homes</span>
         </a>
         <a href="/">Home</a>
+        <a href="/houses">Houses</a>
+        <a href="/vehicles">Vehicles</a>
         <a href="/">About</a>
         <a href="/">Contact</a>
         <a href="/">Agents</a>
