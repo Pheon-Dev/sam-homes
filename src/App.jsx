@@ -20,10 +20,10 @@ function App() {
           path: "/",
           element: <ProfilePage />
         },
-        {
+        /* {
           path: "/list",
           element: <ListPage />
-        },
+        }, */
         {
           path: "/:id",
           element: <SinglePage />
@@ -32,10 +32,10 @@ function App() {
           path: "/profile",
           element: <ProfilePage />
         },
-        {
+        /* {
           path: "/houses",
           element: <ProfilePage />
-        },
+        }, */
         {
           path: "/login",
           element: <Login />

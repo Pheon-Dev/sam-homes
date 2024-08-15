@@ -25,6 +25,9 @@ function ProfilePage() {
             <span>
               Call 2: <b>+254 727 860 186</b>
             </span>
+            <span>
+              Email: <b>Samhomes899@gmail.com</b>
+            </span>
           </div>
           {/* <div className="title">
             <h1>My List</h1>
